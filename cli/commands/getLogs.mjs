@@ -1,4 +1,4 @@
-import { getPipelineRun } from '../../src/synapse-troubleshooter.mjs';
+import { getLogs } from '../../src/synapse-troubleshooter.mjs';
 
 export async function handleGetLogs(options) {
     try {
